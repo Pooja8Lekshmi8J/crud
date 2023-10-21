@@ -9,6 +9,7 @@ const AddUserForm = (props) => {
     image: "",
   };
   const [user, setUser] = useState(initialFormState);
+  // const [user, setUser] = useState(initialFormState);
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
